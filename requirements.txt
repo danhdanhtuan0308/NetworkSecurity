@@ -2,6 +2,7 @@ python-dotenv
 pandas
 numpy 
 pymongo
+pymongo[srv]
 certifi 
 
 ##-e .installs your package in a way that links it to your local source code.
