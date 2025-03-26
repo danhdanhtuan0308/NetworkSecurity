@@ -1,0 +1,16 @@
+[ 2025-03-26 19:05:58,620 ] 17 root - INFO - Initialize the data ingestion process
+[ 2025-03-26 19:05:59,484 ] 68 root - INFO - perform train test split on DF 
+[ 2025-03-26 19:05:59,485 ] 69 root - INFO - Exited split_data_as_train_test method of Data Ingestion
+[ 2025-03-26 19:05:59,485 ] 72 root - INFO - Exporting train test file
+[ 2025-03-26 19:05:59,540 ] 75 root - INFO - successfully exported train test file
+[ 2025-03-26 19:05:59,541 ] 19 root - INFO - Data ingestion process completed
+[ 2025-03-26 19:05:59,543 ] 25 root - INFO - Initialize the data validation
+[ 2025-03-26 19:05:59,551 ] 33 root - INFO - Reqired number of columns: 2
+[ 2025-03-26 19:05:59,551 ] 34 root - INFO - Actual number of columns: 31
+[ 2025-03-26 19:05:59,551 ] 33 root - INFO - Reqired number of columns: 2
+[ 2025-03-26 19:05:59,551 ] 34 root - INFO - Actual number of columns: 31
+[ 2025-03-26 19:05:59,614 ] 27 root - INFO - Data validation process completed
+[ 2025-03-26 19:05:59,614 ] 33 root - INFO - Initialize the data transformation process
+[ 2025-03-26 19:05:59,614 ] 55 root - INFO - Enter data transformation method of the transformation class 
+[ 2025-03-26 19:05:59,614 ] 57 root - INFO - Starting data transformation
+[ 2025-03-26 19:05:59,622 ] 41 root - INFO - enter get_data_transformer_object of transformers class
