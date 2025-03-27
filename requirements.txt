@@ -6,7 +6,7 @@ pymongo[srv]
 certifi 
 scikit-learn
 pyaml 
-
+mlflow
 
 ##-e .installs your package in a way that links it to your local source code.
 ##This is useful for developing code that you want to be able to import from other scripts on your system.

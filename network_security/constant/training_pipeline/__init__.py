@@ -39,8 +39,8 @@ PREPROCESSING_OBJECT_FILE_NAME:str = "preprocessing.pkl"
 
 
 SCHEMA_FILE_PATH: str = os.path.join("data_schema", "schema.yaml")
-
-
+SAVE_MODEL_DIR = os.path.join("saved_models")
+MODEL_FILE_NAME = "model.pkl"
 """
 Data transformation related to constant startwith Data_transformation
 """
@@ -56,3 +56,16 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {
     "n_neighbors": 3,          # Number of neighbors to use
     "weights": "uniform"       # Correct parameter for weights
 }
+
+DATA_TRANSFORMATION_TRAIN_FILE_PATH : str = "train.npy"
+DATA_TRANSFORMATION_TEST_FILE_PATH : str = "test.npy"
+
+"""
+Model trainer realated constant start with Mode Trainer Var name
+"""
+
+MODEL_NAME_DIR_NAME : str = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR: str = "train_model"
+MODEL_TRAINER_TRAINED_MODEL_NAME : str = "model.pkl"
+MODEL_TRAINER_EXPECTED_SCORE : float = 0.6
+MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD: float = 0.05 

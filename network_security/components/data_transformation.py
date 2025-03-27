@@ -40,6 +40,7 @@ class DataTransformation:
     def get_data_transformer_object(cls) -> Pipeline:
         logging.info("Enter get_data_transformer_object of transformers class")
         try:
+            #Filling NA by nearest neightbor 
             imputer: KNNImputer = KNNImputer(**DATA_TRANSFORMATION_IMPUTER_PARAMS)
             logging.info(f"Initialized KNNImputer with params: {DATA_TRANSFORMATION_IMPUTER_PARAMS}")
             processor: Pipeline = Pipeline([("imputer", imputer)])
