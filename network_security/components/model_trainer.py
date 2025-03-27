@@ -102,7 +102,7 @@ class ModelTrainer :
         os.makedirs(model_dir_path,exist_ok= True)
 
         #Save the Network model
-        Network_Model = NetworkModel(preprocess= preprocessor , model = best_models)
+        Network_Model = NetworkModel(preprocessor= preprocessor , model = best_models)
         save_object(self.model_trainer_config.trained_model_file_path,obj = Network_Model)
         save_object("final_models/model.pkl",best_models)
 

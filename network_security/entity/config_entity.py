@@ -13,7 +13,7 @@ class TrainingPipelineConfig:
         self.artifacts_name = training_pipeline.ARTIFACTS_DIR
         self.artifacts_dir = os.path.join(self.artifacts_name,timestamp)
         self.timestamp : str = timestamp
-
+        self.model_dir = os.path.join(self.artifacts_dir, "model")  # Define the model directory
 #Directory for storing the data ingestion (train.csv, test.csv) and feature store
 class DataIngestionConfig:
     def __init__(self, training_pipeline_config: TrainingPipelineConfig):
